@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    height: 200px;    
+    
+}
+.card{
+    border: 1px solid grey;
+    width: 270px;
+    border-radius: 1.5%;
+}
+
+h2{
+    border-top: 1px solid grey;    
+}
+p{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+a{
+    padding-left: 5px;
+}

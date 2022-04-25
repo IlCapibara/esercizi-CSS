@@ -1,0 +1,26 @@
+.calcolatrice{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.75fr repeat(5, 1.05fr);
+    border: 1px solid grey;
+    border-radius: 3%;
+    grid-row-gap: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.equals{
+    grid-column: 4 / 5;
+    grid-row: 3 / 7;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.result{
+    grid-column: 1 / 5;
+    text-align: right;
+}
